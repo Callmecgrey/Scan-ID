@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 string extractDataCPP(string content) {
-// Using OCR to extract the data from the ID or Document
+// Using OCR to extract the data from the ID
 
 // Return the extracted data as a string
 return extractedData;
