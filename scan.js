@@ -21,7 +21,7 @@ function openCameraToScan() {
 }
 
 function extractData(content) {
-    // Use c++ code to extract the data from the scanned ID
+    // Use c++ code to extract the data from scanned ID
     var extractedData = extractDataCPP(content);
     // Return the extracted data as a string
     return extractedData;
