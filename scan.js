@@ -6,7 +6,7 @@ function openCameraToScan() {
     scanner.addListener('scan', function(content) {
         // Extract the data from the scanned ID
         var data = extractData(content);
-        // Display the extracted data on the page
+        // Display the extracted data
         document.getElementById('data').innerHTML = data;
     });
     scanDocument.Camera.getCameras().then(function(cameras) {
